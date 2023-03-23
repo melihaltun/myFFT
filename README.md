@@ -7,4 +7,4 @@ fft_test.cpp contains 6 examples that demonstrate 1D and 2D fft/ifft operations 
 
 The code contains some optimizations such as unrolling decimation in time loops up to N=128 and using decimation in time algorithm for arbitrary size arrays as many times as possible when the size is divisable by a power of 2
 
-The repository also contains a mex files that can be compiled and called from Matlab. This makes it easy to compare the code outputs with Matlab's fft/ifft outputs. 
+The repository also contains mex files that can be compiled and called from Matlab. This makes it easy to compare the code outputs with Matlab's fft/ifft outputs. 
